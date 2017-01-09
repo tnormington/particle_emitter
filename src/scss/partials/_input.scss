@@ -1,0 +1,14 @@
+input[type="color"] {
+  width: $input-w;
+  height: $input-h;
+  border-radius: 50%;
+  margin: 0 0.25em;
+
+  &::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+
+  &::-webkit-color-swatch {
+    border-radius: 50%;
+  }
+}

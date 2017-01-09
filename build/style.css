@@ -1,0 +1,52 @@
+body {
+  background-color: #292929; }
+
+#app {
+  width: 100%;
+  height: 100vh; }
+
+#app-settings {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn {
+  background-color: #c9c9c9;
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 0.5em;
+  margin: 0 0.25em;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35), 0 1px 3px rgba(0, 0, 0, 0.35);
+  transition: all 0.15s ease-out; }
+  .btn:hover {
+    transform: scale(1.1); }
+
+.btn-icon {
+  min-height: 32px;
+  min-width: 32px;
+  border-radius: 50%; }
+
+.btn-success,
+.btn-error {
+  color: #fff; }
+
+.btn-success {
+  background-color: #63d275;
+  border-color: #3bc752; }
+
+.btn-error {
+  background-color: #c7553d;
+  border-color: #a2432f; }
+
+input[type="color"] {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 0.25em; }
+  input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0; }
+  input[type="color"]::-webkit-color-swatch {
+    border-radius: 50%; }

@@ -1,0 +1,34 @@
+.btn {
+  background-color: $light-gray;
+  outline: none;
+  border: 1px solid $light-gray;
+  padding: 0.5em;
+  margin: 0 0.25em;
+  box-shadow: inset 0 1px 1px rgba($white, 0.35), 0 1px 3px rgba($black, 0.35);
+  transition: all 0.15s ease-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn-icon {
+  min-height: $input-h;
+  min-width: $input-w;
+  border-radius: 50%;
+}
+
+.btn-success,
+.btn-error {
+  color: $white;
+}
+
+.btn-success {
+  background-color: $green;
+  border-color: darken($green, 10);
+}
+
+.btn-error {
+  background-color: $red;
+  border-color: darken($red, 10);
+}
